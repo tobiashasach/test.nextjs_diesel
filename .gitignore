@@ -1,0 +1,6 @@
+# environment
+.env*
+!.env.example
+
+# data
+data/

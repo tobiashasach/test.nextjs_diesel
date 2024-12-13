@@ -1,0 +1,11 @@
+[package]
+name = "web_server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dotenvy = "0.15.7"
+tokio = { version = "1.42.0", features = ["full"] }
+serde = "1.0.216"
+axum = "0.7.9"
+database_client = { path = "../database_client" }
